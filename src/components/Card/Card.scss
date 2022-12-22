@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  display: flex;
+
+  .card__title-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+
+.card__subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #424242;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

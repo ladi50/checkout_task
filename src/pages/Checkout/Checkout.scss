@@ -1,0 +1,82 @@
+.checkout {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .checkout__left {
+    flex: 0.49;
+  }
+
+  .checkout__right {
+    flex: 0.49;
+  }
+
+  .checkout__availability {
+    color: gray;
+    font-size: 0.95rem;
+  }
+
+  .checkout__accordion-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .checkout__cancelOrder {
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .checkout__noRefunds {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .checkout__placeOrder {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .checkoutCC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkoutCC_form {
+    margin-top: 10px;
+
+    & > * {
+      margin-bottom: 15px;
+    }
+  }
+
+  .checkoutCC__addCard {
+    border-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: blue;
+  }
+
+  .checkoutCC__radio-wrapper {
+    & > .input {
+      margin-left: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .checkoutCC__radio-exp {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: gray;
+  }
+}
